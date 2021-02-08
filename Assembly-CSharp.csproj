@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\BlockSpawner.cs" />
+     <Compile Include="Assets\FallingBlock.cs" />
      <Compile Include="Assets\Player.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

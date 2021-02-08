@@ -21,6 +21,11 @@ public class Player : MonoBehaviour
         xRand = schermBreedte / 2f;
     }
 
+    void OnTriggerEnter(Collider col)
+    {
+        Destroy(this.gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
