@@ -34,9 +34,11 @@ public class BlockSpawner : MonoBehaviour
             float xPosition = Random.Range(-xRand, xRand);
             Vector3 position = new Vector3(xPosition, Camera.main.orthographicSize * 2, 0);
 
-            // random size
-
             // random rotation
+            //Quaternion.AngleAxis (hoek, new Vector3(0, 0, 1));
+
+            // random size
+            //blockPrefab.transform.localScale
 
             Instantiate(blockPrefab, position, this.transform.rotation);
             timer = 0f;
